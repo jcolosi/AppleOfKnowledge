@@ -1,0 +1,64 @@
+body {
+  /* This is an exact emulation of Weebly's background. */
+  background: url("bg-paper.jpg") no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /* This is like Weebly's, but pins image to the bottom of the page. */
+  /*
+  background: url("ocean.jpg") no-repeat fixed bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+}
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+
+.btn {
+ height: 54px !important;
+}
+.btn-default {
+ text-align: left !important;
+ width: 600px !important;
+}
+
+#logo {
+ text-align:center;
+ display:block;
+}
+
+.glyphicon.glyphicon-ok {
+    font-size: 24px;
+}
+
+h1 {
+	color: #000 !important;
+	margin-top: 50px !important;
+ font-weight: bold;
+}
+
+.popover-title { display: none; }
